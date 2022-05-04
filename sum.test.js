@@ -1,23 +1,23 @@
 const checks = require('./sum.js');
 
 describe('length test', () => {
-    test('camiluxThecommunity length', () => {
-        expect(checks.stringLength('camiluxThecommunity')).toBe(-1);
+    test('karmashadesinlight length', () => {
+        expect(checks.stringLength('karmashadesinlight')).toBe(-1);
       });
-    test('camilux length', () => {
-      expect(checks.stringLength('camilux')).toBe(7);
+    test('karma length', () => {
+      expect(checks.stringLength('karma')).toBe(5);
     });  
     test('empty string test', () => {
         expect(checks.stringLength('')).toBe(-1);
       });
 });
 
-describe('reverser string test', ()=> {
-    test('camilux reversed', () => {
-        expect(checks.reverseString('camilux')).toBe('xulimac');
+describe('string reverser test', ()=> {
+    test('him reversed', () => {
+        expect(checks.reverseString('him')).toBe('mih');
     });
-    test('zetron reversed', () => {
-        expect(checks.reverseString('zetron')).toBe('nortez');
+    test('merde reversed', () => {
+        expect(checks.reverseString('merde')).toBe('edrem');
     }); 
 });
 
@@ -25,20 +25,20 @@ describe('calculation tests', ()=> {
     test('sum 45 + 15', () => {
         expect(checks.sum(45, 15)).toBe(60);
     });
-    test('substract 45 - 15', () => {
-        expect(checks.substract(45, 15)).toBe(30);
+    test('substract 20 - 15', () => {
+        expect(checks.substract(20, 15)).toBe(5);
     });
-    test('multiply 12 * 6', () => {
-        expect(checks.multiply(12, 6)).toBe(72);
+    test('multiply 34 * 2', () => {
+        expect(checks.multiply(34, 2)).toBe(68);
     });
-    test('divide 30 / 15', () => {
-        expect(checks.divide(30, 15)).toBe(2);
+    test('divide 12 / 3', () => {
+        expect(checks.divide(12, 3)).toBe(4);
     });
 });
 
 describe('Test upper case', ()=> {
     test('make upper case', () => {
-        expect(checks.capitalise('camilux')).toBe('CAMILUX');
+        expect(checks.capitalise('karis')).toBe('KARIS');
     });
 });
  

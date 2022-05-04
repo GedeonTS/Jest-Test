@@ -7,7 +7,7 @@ class algoChecks {
 
         if(string.length <= 1 || string.length >= 10){
 
-            console.log('String is to shorter or to long!');
+            console.log('String is too short or too long!');
             return  -1;
         }else{
             console.log(string.length);
