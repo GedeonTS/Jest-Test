@@ -1,8 +1,8 @@
 const checks = require('./sum.js');
 
 describe('length test', () => {
-    test('karmashadesinlight length', () => {
-        expect(checks.stringLength('karmashadesinlight')).toBe(-1);
+    test('karmaShadesInLight length', () => {
+        expect(checks.stringLength('karmaShadesInLight')).toBe(-1);
       });
     test('karma length', () => {
       expect(checks.stringLength('karma')).toBe(5);
