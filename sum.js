@@ -1,4 +1,4 @@
-class algoChecks {
+class Tester {
     constructor(){
 
     }
@@ -38,6 +38,6 @@ class algoChecks {
 
 }
 
-const myChecks = new algoChecks;
+const myChecks = new Tester;
 
 module.exports = myChecks;
